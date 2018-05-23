@@ -33,7 +33,7 @@
 
 - name: Add apt key for New Relic Infrastructure
   apt_key:
-    url: "{{ NEWRELIC_INFRASTRUCTURE_KEY_URL }}"
+    url: "{{ NEWRELIC_INFRASTRUCTURE_DEBIAN_KEY_URL }}"
     state: present
   tags:
     - install
