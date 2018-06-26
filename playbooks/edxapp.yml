@@ -32,5 +32,3 @@
      when: not COMMON_ENABLE_DATADOG
    - role: newrelic_infrastructure
      when: COMMON_ENABLE_NEWRELIC_INFRASTRUCTURE
-   - role: newrelic
-     when: COMMON_ENABLE_NEWRELIC
